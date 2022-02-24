@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row justify-content-center align-items-center vh-100 bg-secondary">
             <div class="col-5 bg-light p-5 rounded">
-                @include('components.sweetalert')
+                @include('component.sweetalert')
 
                 <form action="{{ route('upload.image') }}" method="post" enctype="multipart/form-data">
                     @csrf
